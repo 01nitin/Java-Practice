@@ -1,7 +1,7 @@
 package LeetCode;
 
 //Longest Substring Without Repeating Characters
-public class LongestPalindrome {
+public class LongestSubs {
     public static void main(String[] a){
         String s = "geeksforgeeks";
         int n = s.length();
