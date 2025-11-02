@@ -16,6 +16,7 @@ public class LongestPalindrome {
             if (window[s.charAt(right)] == true){
                 System.out.println("condition is :: " + (window[s.charAt(right)] == true)+ " ind :: "+ left);
                 window[s.charAt(left)] = false;
+                System.out.println(" F  :: " + maxWindow);
                 left ++;
             }
             else{
